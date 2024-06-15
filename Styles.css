@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC&display=swap');
+body {
+        margin: 0;
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        background: antiquewhite;
+}
+.main {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 1.3em;
+    margin-left: 2em;
+}
+.title {
+    color: red;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.subtitle {
+    border-left: 5px solid chocolate;
+    padding-left: 10px;
+    color: gray;
+    margin-top: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.img {
+    border: 1px solid silver;
+}
+.aside {
+    width: 300px;
+    flex: 0;
+}
+
+li{
+    text-align: left;
+}
+
+.pugs {
+    color: #ff0090;
+    font-size: 70px;
+}
+
+.nothing {
+    color: black;
+    font-size: 70px;
+}
+
+.cats {
+    color: #144b0f; text-decoration-line: spelling-error; font-size: 20px;
+}
+
+.dline {
+    line-height: 1.5;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: darkred;
+    color: #dddddd;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header__links {
+    list-style: none;
+    display: flex;
+}
+
+.header__link {
+    margin: 0 1rem;
+}
+
+.header__link-text {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header__link-text:hover {
+  text-transform: uppercase;
+    color: #ff0090;
+}
+
+.main-section {
+    flex-grow: 1;
+    padding-left: 50px;
+}
+
+.footer {
+    border-top: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    color: gray;
+}
+ .oll{
+     font-family: "LXGW WenKai Mono TC", monospace ;
+     font-size: 1.2em;
+ }
+ .main-section__text {
+     font-family: "LXGW WenKai Mono TC", monospace ;
+     font-size: 1.2em;
+ }
+ .v {
+     display: flex;
+     justify-content: center;
+     font-family: "Ubuntu", sans-serif;
+     font-size: 18px;
+
+ }
+ .p{
+     display: flex;
+     justify-content: center;
+ }
